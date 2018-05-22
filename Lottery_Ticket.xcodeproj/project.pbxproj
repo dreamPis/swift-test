@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		82CF039A20B3F93A0051925E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF039920B3F93A0051925E /* AppDelegate.swift */; };
 		82CF039C20B3F93A0051925E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF039B20B3F93A0051925E /* ViewController.swift */; };
-		82CF039F20B3F93A0051925E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CF039D20B3F93A0051925E /* Main.storyboard */; };
 		82CF03A120B3F93B0051925E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CF03A020B3F93B0051925E /* Assets.xcassets */; };
 		82CF03A420B3F93B0051925E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CF03A220B3F93B0051925E /* LaunchScreen.storyboard */; };
 		82CF03AF20B3F93B0051925E /* Lottery_TicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF03AE20B3F93B0051925E /* Lottery_TicketTests.swift */; };
 		82CF03BA20B3F93B0051925E /* Lottery_TicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF03B920B3F93B0051925E /* Lottery_TicketUITests.swift */; };
+		82CF03C820B3F9D50051925E /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF03C720B3F9D50051925E /* NoticeViewController.swift */; };
+		82CF03CA20B3F9E80051925E /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF03C920B3F9E80051925E /* FindViewController.swift */; };
+		82CF03CC20B3F9F60051925E /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF03CB20B3F9F60051925E /* UserInfoViewController.swift */; };
+		82CF03CE20B3FA660051925E /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CF03CD20B3FA660051925E /* IndexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 		82CF039620B3F93A0051925E /* Lottery_Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lottery_Ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CF039920B3F93A0051925E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82CF039B20B3F93A0051925E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		82CF039E20B3F93A0051925E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82CF03A020B3F93B0051925E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82CF03A320B3F93B0051925E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82CF03A520B3F93B0051925E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		82CF03B520B3F93B0051925E /* Lottery_TicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lottery_TicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CF03B920B3F93B0051925E /* Lottery_TicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottery_TicketUITests.swift; sourceTree = "<group>"; };
 		82CF03BB20B3F93B0051925E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CF03C720B3F9D50051925E /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		82CF03C920B3F9E80051925E /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
+		82CF03CB20B3F9F60051925E /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		82CF03CD20B3FA660051925E /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				82CF039920B3F93A0051925E /* AppDelegate.swift */,
 				82CF039B20B3F93A0051925E /* ViewController.swift */,
-				82CF039D20B3F93A0051925E /* Main.storyboard */,
 				82CF03A020B3F93B0051925E /* Assets.xcassets */,
 				82CF03A220B3F93B0051925E /* LaunchScreen.storyboard */,
 				82CF03A520B3F93B0051925E /* Info.plist */,
+				82CF03C720B3F9D50051925E /* NoticeViewController.swift */,
+				82CF03C920B3F9E80051925E /* FindViewController.swift */,
+				82CF03CB20B3F9F60051925E /* UserInfoViewController.swift */,
+				82CF03CD20B3FA660051925E /* IndexViewController.swift */,
 			);
 			path = Lottery_Ticket;
 			sourceTree = "<group>";
@@ -231,7 +240,6 @@
 			files = (
 				82CF03A420B3F93B0051925E /* LaunchScreen.storyboard in Resources */,
 				82CF03A120B3F93B0051925E /* Assets.xcassets in Resources */,
-				82CF039F20B3F93A0051925E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CF039C20B3F93A0051925E /* ViewController.swift in Sources */,
+				82CF03C820B3F9D50051925E /* NoticeViewController.swift in Sources */,
+				82CF03CC20B3F9F60051925E /* UserInfoViewController.swift in Sources */,
 				82CF039A20B3F93A0051925E /* AppDelegate.swift in Sources */,
+				82CF03CA20B3F9E80051925E /* FindViewController.swift in Sources */,
+				82CF03CE20B3FA660051925E /* IndexViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		82CF039D20B3F93A0051925E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82CF039E20B3F93A0051925E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		82CF03A220B3F93B0051925E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
