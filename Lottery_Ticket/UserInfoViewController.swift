@@ -16,7 +16,7 @@ class UserInfoViewController: UIViewController {
         super.viewDidLoad()
         let myLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 40))
         myLabel.backgroundColor = UIColor.lightGray
-        myLabel.text = "用户"
+        myLabel.text = "小视频"
         myLabel.textAlignment = .center
         myLabel.center = CGPoint(x: fullScreen.width * 0.5, y: fullScreen.height * 0.5)
         self.view.addSubview(myLabel)
